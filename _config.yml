@@ -59,25 +59,22 @@ social_media:
 
 topics:
   - name: Python
-    web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
 
   - name: JavaScript
-    web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
 
   - name: Flask
-    web_url: https://github.com/topics/flask
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png
 
   - name: Node.js
-    web_url: https://github.com/topics/nodejs
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png
 
   - name: React.js
-    web_url: https://github.com/topics/react
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png
 
+  - name: Photoshop
+    image_url: https://user-images.githubusercontent.com/19390263/68627710-7938e000-0504-11ea-8115-53c71b12c875.png
 
 platforms:
   - title: Jaypee Institute of Information Technology

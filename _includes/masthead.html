@@ -9,11 +9,15 @@
 </div>
 
 
-<h1 class="{% if site.style == 'dark' %}text-white{% endif %} d-flex flex-justify-center lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1><br>
+<h1 class="{% if site.style == 'dark' %}text-white{% endif %} d-flex flex-justify-center lh-condensed">{% if user.name %}{{ user.name }} 🙋🏻‍♂️{% else %}{{ user.login }}{% endif %}</h1><br>
+
 <p class="d-flex flex-justify-center mb-3 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
 </p>
-
+<div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+  {% octicon gist height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:gist %}
+  <a href="https://drive.google.com/file/d/1KFrWBTHO5dlHXcP-TZhlsuUhV4SvIqBo/view">Resume</a>
+</div>
 {% if include.metadata %}
   <div class="f4 mb-6">
     {% if user.name %}
@@ -24,6 +28,7 @@
         </a>
       </div>
     {% endif %}
+
     {% if user.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
@@ -38,6 +43,7 @@
         {{ user.location }}
       </div>
     {% endif %}
+
     {% if site.social_media %}
       <div class="d-flex flex-justify-center {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
         {% for account in site.social_media %}
