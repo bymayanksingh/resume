@@ -37,6 +37,7 @@ projects:
     - hacktoberfest-swag-list
     - vision 
     - deep-learning-v2-pytorch
+    - resume-1
 
 social_media:
   linkedin: code-monk08
