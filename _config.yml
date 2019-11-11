@@ -21,38 +21,97 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 15
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
-    # - repo-name
+    - atbswpy 
+    - road-maps
+    - c-practice-programs 
+    - graphs 
+    - resume
+    - design
+    - personal-website
+    - postwoman
+    - hacktoberfest-swag-list
+    - vision 
+    - deep-learning-v2-pytorch
 
-# social_media:
+social_media:
+  linkedin: code-monk08
+  twitter: codemonk08_
+  telegram: codemonk08
+  hackerrank: codemonk08
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
 
-  - name: Web design
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Flask
+    web_url: https://github.com/topics/flask
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png
+
+  - name: Node.js
+    web_url: https://github.com/topics/nodejs
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png
+
+  - name: React.js
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png
+
+
+platforms:
+  - title: Jaypee Institute of Information Technology
+    url: http://www.jiit.ac.in/
+    stream: B.Tech. in Information Technology
+    date: 2017 - 2021
+
+  - title: PyBites
+    url: https://pybit.es/
+    stream: Python Programming Langauge
+    date: 2018 - Present
+
+  - title: FreeCodeCamp
+    url: https://www.freecodecamp.org/
+    stream: Web Development
+    date: 2017 - Present
+
+
+experiences:
+  - title: Technical Content Writer
+    url: https://www.includehelp.com/Members/mayank-singh.aspx
+    text: Includehelp, I was responsible for writing articles in Java programming language.
+    date: June, 2017
+
+  - title: Open Source Contributor
+    url: https://github.com/PyBites-Open-Source/questionnaire-api
+    text: PyBites, I am one of the co-authors in questionnaire-api project built in Python & Flask.
+    date: 2019, August - Present
+
+  - title: Core Team Member & Designer
+    url: https://github.com/osdc
+    text: Open Source Developers Club, I am responsible for organizing weekly meetups and for contributing all the poster/logo designs used in OSDC. 
+    date: 2019, July - Present
+
+  - title: Open Source Contributor & Community Volunteer
+    url: https://delhi.pydata.org/
+    text: PyData Delhi, I was responsible for co-organizing PyData Delhi 2019 Conference on 3rd & 4th August 2019, I also contributed to PyData Delhi's website
+    date: 2019, May - Present

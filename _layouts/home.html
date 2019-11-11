@@ -8,20 +8,33 @@
       {{ content }}
     </div>
 
+    {% if site.platforms %}
+    <div class="my-6">
+      {% include education.html %}
+    </div>
+    {% endif %}
+
+    {% if site.experiences %}
+    <div class="my-6">
+      {% include experience.html %}
+    </div>
+    {% endif %}
+
+    {% unless posts_total == 0 %}
+    <div class="my-6">
+      {% include thoughts.html %}
+    </div>
+
     <div class="my-6">
       {% include projects.html %}
     </div>
 
     {% if site.topics %}
       <div class="my-6">
-        {% include interests.html %}
+        {% include skills.html %}
       </div>
     {% endif %}
 
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
     {% endunless %}
   </div>
 {% else %}
@@ -37,16 +50,25 @@
             {{ content }}
           </div>
         {% endunless %}
+        
+        {% if site.platforms %}
+          {% include education.html %}
+        {% endif %}
 
-        {% include projects.html %}
-
-        {% if site.topics %}
-          {% include interests.html %}
+        {% if site.experiences %}
+          {% include experience.html %}
         {% endif %}
 
         {% unless posts_total == 0 %}
           {% include thoughts.html %}
         {% endunless %}
+
+        {% include projects.html %}
+
+        {% if site.topics %}
+          {% include skills.html %}
+        {% endif %}
+
       </div>
     </div>
   </div>
