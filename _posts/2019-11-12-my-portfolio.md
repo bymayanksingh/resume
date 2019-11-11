@@ -1,9 +1,9 @@
 ---
-title: "Welcome to Jekyll!"
-published: true
+title: "My new Portfolio"
+published: false
 ---
 
-**Hello world**, this is my first Jekyll blog post.
+**Hello world**, this is my lastest portfolio which I built with the help of Github. 
 
 I hope you like it!
 
