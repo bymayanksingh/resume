@@ -9,7 +9,7 @@
 </div>
 
 
-<h1 class="{% if site.style == 'dark' %}text-white{% endif %} d-flex flex-justify-center lh-condensed">{% if user.name %}{{ user.name }} 🙋🏻‍♂️{% else %}{{ user.login }}{% endif %}</h1><br>
+<h1 class="{% if site.style == 'dark' %}text-white{% endif %} d-flex flex-justify-center lh-condensed">{% if user.name %}{{ user.name }} {% else %}{{ user.login }}{% endif %}</h1><br>
 
 <p class="d-flex flex-justify-center mb-3 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
